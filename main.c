@@ -39,6 +39,17 @@ int main() {
 }
 
 void pole_prostokata() {
+    float a;
+    float b;
+    float pole_prostokata;
+    printf ("\nPodaj dlugosc boku a - ");
+    scanf ("%f", &a);
+    printf ("\nPodaj d³ugosc boku b - ");
+    scanf ("%f", &b);
+
+    pole_prostokata = (a * b);
+
+    printf("\nPole prostokata wynosi: %.2f\n\n", pole_prostokata);
 
 
 }
