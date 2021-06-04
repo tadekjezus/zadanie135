@@ -44,6 +44,16 @@ void pole_prostokata() {
 }
 
 void pole_trojkata() {
+    float a;
+    float h;
+    float pole_trojkata;
+    printf ("\nPodaj dlugosc boku a - ");
+    scanf ("%f", &a);
+    printf ("\nPodaj wysokosc trojkata h - ");
+    scanf ("%f", &h);
 
+    pole_trojkata = (a * h)/2;
+
+    printf("\nPole trojkata wynosi: %.2f\n\n", pole_trojkata);
 
 }
